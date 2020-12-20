@@ -12,6 +12,13 @@
     <input type="checkbox" id="toggle">
   </div>
 
+  <script>
+    const input = document.querySelector('input')
+
+    input.addEventListener('change', () => {
+      document.body.classList.toggle('tgl')
+    })
+  </script>
 
 </body>
 </html>
